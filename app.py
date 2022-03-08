@@ -1,7 +1,9 @@
+# importing dependencies
 import cv2
 from utils import imageread, get_contours
 import numpy as np
 import streamlit as st
+
 
 img, img1, img2, img3 = imageread()
 img_list = [img, img1, img2, img3]
